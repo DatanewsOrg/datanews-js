@@ -1,0 +1,25 @@
+{
+  "name": "datanews-js",
+  "version": "0.1.0",
+  "description": "The official JavaScript client for Datanews",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "api",
+    "datanews"
+  ],
+  "author": "Datanews",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "bent": "^7.3.12",
+    "form-urlencoded": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/bent": "^7.3.2"
+  }
+}
